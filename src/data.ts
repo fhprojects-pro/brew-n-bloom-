@@ -259,7 +259,7 @@ export const CAFE_EVENTS: CafeEvent[] = [
     frequency: "Weekly",
     description: "Join local Westside Seattle poets, singer-songwriters, and acoustic artists. Sign-ups open at 6:30 PM. Active performers get a free single origin coffee.",
     type: "music",
-    image: "https://images.unsplash.com/photo-1516280440614-37939bbacd6a?auto=format&fit=crop&w=500&h=300&q=80"
+    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34b4?auto=format&fit=crop&w=500&h=300&q=80"
   },
   {
     id: "cupping-class",
