@@ -119,7 +119,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "Our core double-shot espresso profile, balance of molasses sweetness and plum tartness.",
     category: "coffee",
     tags: ["Direct Trade", "House Blend", "Roasted Weekly"],
-    image: "https://images.unsplash.com/photo-1510972527409-cef1903972fa?auto=format&fit=crop&w=600&h=450&q=80",
+    image: "https://res.cloudinary.com/dbyrxpntf/image/upload/f_auto,q_80,w_600,h_450,c_fill/v1779272911/jeremy-yap-jn-HaGWe4yw-unsplash_e1nrh3.jpg",
     details: "Origin: 60% Colombia El Paraiso + 40% Ethiopia Sidama. Notes: Milk Chocolate, Red Currant, Toffee."
   },
   {
