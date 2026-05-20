@@ -1,0 +1,6 @@
+{
+  "name": "Brew & Bloom Café",
+  "description": "Premium specialty coffee shop and neighborhood café in Seattle with small-batch on-site roastery, direct trade coffees, and local art space.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

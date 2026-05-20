@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-espresso: #2C0E14;
+  --color-latte: #FFF4F5;
+  --color-gold: #E0537E;
+  --color-sage: #C05C72;
+  
+  --color-gold-hover: #BD254F;
+  --color-espresso-light: #3A1921;
+  --color-cream-light: #FFFFFF;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-latte);
+    color: var(--color-espresso);
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom styles for luxury glassmorphic effects */
+.glass-effect-light {
+  background: rgba(255, 244, 245, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(224, 83, 126, 0.15);
+}
+
+.glass-effect-dark {
+  background: rgba(44, 14, 20, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(224, 83, 126, 0.2);
+}
+
+.gold-glow {
+  box-shadow: 0 0 20px rgba(224, 83, 126, 0.2);
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 0 25px rgba(224, 83, 126, 0.45);
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+::-webkit-scrollbar-thumb {
+  background: #E0537E;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BD254F;
+}
